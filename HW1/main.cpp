@@ -54,7 +54,7 @@ int main() {
         ServiceFee = ( Subtotal + VAT -Discount ) *6/100;
     }
 
-    if ((Subtotal + VAT - Discount) < 375 && (Subtotal+VAT - Discount) > 175){
+    if ((Subtotal + VAT - Discount) < 375 && (Subtotal+VAT - Discount) >= 175){
         ServiceFee = (Subtotal+VAT-Discount) *8/100;
 
     }
